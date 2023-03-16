@@ -1,0 +1,1208 @@
+2021-03-24 17:45:21,533 INFO  - Starting ServiceWrapper in the service mode
+2021-03-24 17:45:21,574 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-03-24 17:45:21,580 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-03-24 17:45:21,598 INFO  - Started process 12504
+2021-03-24 17:45:21,605 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-04-15 10:27:50,168 INFO  - Stopping FlaskAPISERVICE
+2021-04-15 10:27:50,189 DEBUG - ProcessKill 12504
+2021-04-15 10:27:50,246 WARN  - Failed to locate children of the process with PID=12504. Child processes won't be terminated
+System.TypeInitializationException: The type initializer for 'System.Management.ManagementPath' threw an exception. ---> System.Runtime.InteropServices.COMException: Retrieving the COM class factory for component with CLSID {CF4CC405-E2C5-4DDD-B3CE-5E7582D8C9FA} failed due to the following error: 80070013 The media is write protected. (Exception from HRESULT: 0x80070013).
+   at System.Management.MTAHelper.CreateInMTA(Type type)
+   at System.Management.ManagementPath.CreateWbemPath(String path)
+   at System.Management.ManagementPath..cctor()
+   --- End of inner exception stack trace ---
+   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-04-15 10:27:50,265 INFO  - Stopping process 12504
+2021-04-15 10:27:50,280 INFO  - Send SIGINT 12504
+2021-04-15 10:28:53,739 INFO  - Starting ServiceWrapper in the service mode
+2021-04-15 10:28:54,012 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-04-15 10:28:54,060 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-04-15 10:28:54,217 INFO  - Started process 3832
+2021-04-15 10:28:54,248 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-06-07 12:15:22,357 INFO  - Stopping FlaskAPISERVICE
+2021-06-07 12:15:22,359 DEBUG - ProcessKill 3832
+2021-06-07 12:15:22,734 INFO  - Found child process: 3840 Name: conhost.exe
+2021-06-07 12:15:22,753 INFO  - Found child process: 3896 Name: python.exe
+2021-06-07 12:15:22,878 INFO  - Stopping process 3840
+2021-06-07 12:15:22,917 INFO  - Send SIGINT 3840
+2021-06-07 12:15:22,923 WARN  - SIGINT to 3840 failed - Killing as fallback
+2021-06-07 12:15:23,069 INFO  - Stopping process 3896
+2021-06-07 12:15:23,074 INFO  - Send SIGINT 3896
+2021-06-07 12:15:23,077 WARN  - SIGINT to 3896 failed - Killing as fallback
+2021-06-07 12:15:23,079 INFO  - Stopping process 3832
+2021-06-07 12:15:23,084 INFO  - Send SIGINT 3832
+2021-06-07 12:15:23,086 WARN  - SIGINT to 3832 failed - Killing as fallback
+2021-06-07 12:15:23,090 INFO  - Finished FlaskAPISERVICE
+2021-06-07 12:15:23,115 DEBUG - Completed. Exit code is 0
+2021-06-07 12:17:08,018 INFO  - Starting ServiceWrapper in the service mode
+2021-06-07 12:17:08,068 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-06-07 12:17:08,073 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-06-07 12:17:08,100 INFO  - Started process 6624
+2021-06-07 12:17:08,107 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-06-07 12:19:09,173 INFO  - Stopping FlaskAPISERVICE
+2021-06-07 12:19:09,176 DEBUG - ProcessKill 6624
+2021-06-07 12:19:09,376 INFO  - Found child process: 1800 Name: conhost.exe
+2021-06-07 12:19:09,377 INFO  - Found child process: 6248 Name: python.exe
+2021-06-07 12:19:09,490 INFO  - Stopping process 1800
+2021-06-07 12:19:09,494 INFO  - Send SIGINT 1800
+2021-06-07 12:19:09,497 WARN  - SIGINT to 1800 failed - Killing as fallback
+2021-06-07 12:19:09,610 INFO  - Stopping process 6248
+2021-06-07 12:19:09,614 INFO  - Send SIGINT 6248
+2021-06-07 12:19:09,616 WARN  - SIGINT to 6248 failed - Killing as fallback
+2021-06-07 12:19:09,617 INFO  - Stopping process 6624
+2021-06-07 12:19:09,621 INFO  - Send SIGINT 6624
+2021-06-07 12:19:09,627 WARN  - SIGINT to 6624 failed - Killing as fallback
+2021-06-07 12:19:09,644 WARN  - Ignoring exception from killing process because it has exited
+System.ComponentModel.Win32Exception (0x80004005): Access is denied
+   at System.Diagnostics.Process.Kill()
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2021-06-07 12:19:09,694 INFO  - Finished FlaskAPISERVICE
+2021-06-07 12:19:09,696 DEBUG - Completed. Exit code is 0
+2021-06-07 12:19:56,806 INFO  - Starting ServiceWrapper in the service mode
+2021-06-07 12:19:56,854 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-06-07 12:19:56,861 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-06-07 12:19:56,885 INFO  - Started process 10380
+2021-06-07 12:19:56,898 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-07-08 18:11:54,699 INFO  - Stopping FlaskAPISERVICE
+2021-07-08 18:11:54,711 DEBUG - ProcessKill 10380
+2021-07-08 18:11:54,868 WARN  - Failed to locate children of the process with PID=10380. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-07-08 18:11:54,915 INFO  - Stopping process 10380
+2021-07-08 18:11:54,915 INFO  - Send SIGINT 10380
+2021-07-08 18:13:00,196 INFO  - Starting ServiceWrapper in the service mode
+2021-07-08 18:13:00,410 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-07-08 18:13:00,457 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-07-08 18:13:00,566 INFO  - Started process 4104
+2021-07-08 18:13:00,582 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-08-02 10:39:59,202 INFO  - Stopping FlaskAPISERVICE
+2021-08-02 10:39:59,210 DEBUG - ProcessKill 4104
+2021-08-02 10:39:59,479 WARN  - Failed to locate children of the process with PID=4104. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-08-02 10:39:59,604 INFO  - Stopping process 4104
+2021-08-02 10:39:59,604 INFO  - Send SIGINT 4104
+2021-08-02 10:40:00,166 INFO  - SIGINT to4104 successful
+2021-08-02 10:40:00,166 INFO  - Finished FlaskAPISERVICE
+2021-08-02 10:40:00,166 DEBUG - Completed. Exit code is 0
+2021-08-02 10:45:48,902 INFO  - Starting ServiceWrapper in the service mode
+2021-08-02 10:45:49,114 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-08-02 10:45:49,164 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-08-02 10:45:49,271 INFO  - Started process 4228
+2021-08-02 10:45:49,286 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-12-17 23:55:22,327 INFO  - Stopping FlaskAPISERVICE
+2021-12-17 23:55:22,516 DEBUG - ProcessKill 4228
+2021-12-18 00:00:16,332 INFO  - Starting ServiceWrapper in the service mode
+2021-12-18 00:00:16,662 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-12-18 00:00:16,730 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-12-18 00:00:16,850 INFO  - Started process 4264
+2021-12-18 00:00:16,882 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2021-12-18 00:32:02,595 INFO  - Stopping FlaskAPISERVICE
+2021-12-18 00:32:02,620 DEBUG - ProcessKill 4264
+2021-12-18 00:32:02,677 WARN  - Failed to locate children of the process with PID=4264. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-12-18 00:32:02,708 INFO  - Stopping process 4264
+2021-12-18 00:32:02,708 INFO  - Send SIGINT 4264
+2021-12-18 00:32:02,942 INFO  - SIGINT to4264 successful
+2021-12-18 00:32:02,942 INFO  - Finished FlaskAPISERVICE
+2021-12-18 00:32:02,958 DEBUG - Completed. Exit code is 0
+2021-12-18 00:34:09,153 INFO  - Starting ServiceWrapper in the service mode
+2021-12-18 00:34:09,425 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-12-18 00:34:09,441 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2021-12-18 00:34:09,550 INFO  - Started process 4392
+2021-12-18 00:34:09,588 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-05 10:49:35,757 INFO  - Stopping FlaskAPISERVICE
+2022-01-05 10:49:35,759 DEBUG - ProcessKill 4392
+2022-01-05 10:49:36,045 WARN  - Failed to locate children of the process with PID=4392. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-01-05 10:49:36,107 INFO  - Stopping process 4392
+2022-01-05 10:49:36,107 INFO  - Send SIGINT 4392
+2022-01-05 10:49:36,984 INFO  - SIGINT to4392 successful
+2022-01-05 10:49:36,984 INFO  - Finished FlaskAPISERVICE
+2022-01-05 10:49:37,000 DEBUG - Completed. Exit code is 0
+2022-01-05 10:50:42,328 INFO  - Starting ServiceWrapper in the service mode
+2022-01-05 10:50:42,573 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 10:50:42,595 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 10:50:42,668 INFO  - Started process 4032
+2022-01-05 10:50:42,680 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-05 14:29:35,549 INFO  - Stopping FlaskAPISERVICE
+2022-01-05 14:29:35,551 DEBUG - ProcessKill 4032
+2022-01-05 14:29:36,865 WARN  - Failed to locate children of the process with PID=4032. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-01-05 14:29:37,154 INFO  - Stopping process 4032
+2022-01-05 14:29:37,157 INFO  - Send SIGINT 4032
+2022-01-05 14:29:40,265 INFO  - SIGINT to4032 successful
+2022-01-05 14:31:16,937 INFO  - Starting ServiceWrapper in the service mode
+2022-01-05 14:31:17,158 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 14:31:17,198 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 14:31:17,287 INFO  - Started process 4296
+2022-01-05 14:31:17,303 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-05 15:09:37,480 INFO  - Stopping FlaskAPISERVICE
+2022-01-05 15:09:37,481 DEBUG - ProcessKill 4296
+2022-01-05 15:09:38,072 WARN  - Failed to locate children of the process with PID=4296. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-01-05 15:09:38,369 INFO  - Stopping process 4296
+2022-01-05 15:09:38,479 INFO  - Send SIGINT 4296
+2022-01-05 15:09:39,485 INFO  - SIGINT to4296 successful
+2022-01-05 15:09:39,510 INFO  - Finished FlaskAPISERVICE
+2022-01-05 15:09:39,563 DEBUG - Completed. Exit code is 0
+2022-01-05 15:12:41,041 INFO  - Starting ServiceWrapper in the service mode
+2022-01-05 15:12:41,229 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 15:12:41,260 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 15:12:41,322 INFO  - Started process 4672
+2022-01-05 15:12:41,354 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-05 17:52:14,763 INFO  - Stopping FlaskAPISERVICE
+2022-01-05 17:52:14,763 DEBUG - ProcessKill 4672
+2022-01-05 17:52:15,048 WARN  - Failed to locate children of the process with PID=4672. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-01-05 17:52:15,064 INFO  - Stopping process 4672
+2022-01-05 17:52:15,138 INFO  - Send SIGINT 4672
+2022-01-05 17:53:39,736 INFO  - Starting ServiceWrapper in the service mode
+2022-01-05 17:53:39,947 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 17:53:40,010 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-05 17:53:40,104 INFO  - Started process 4828
+2022-01-05 17:53:40,135 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-07 00:21:21,346 INFO  - Stopping FlaskAPISERVICE
+2022-01-07 00:21:21,346 DEBUG - ProcessKill 4828
+2022-01-07 00:21:21,461 INFO  - Found child process: 4836 Name: conhost.exe
+2022-01-07 00:21:21,461 INFO  - Found child process: 4892 Name: python.exe
+2022-01-07 00:21:21,571 INFO  - Stopping process 4836
+2022-01-07 00:21:21,571 INFO  - Send SIGINT 4836
+2022-01-07 00:21:21,571 WARN  - SIGINT to 4836 failed - Killing as fallback
+2022-01-07 00:21:21,665 INFO  - Stopping process 4892
+2022-01-07 00:21:21,665 INFO  - Send SIGINT 4892
+2022-01-07 00:21:21,665 WARN  - SIGINT to 4892 failed - Killing as fallback
+2022-01-07 00:21:21,665 INFO  - Stopping process 4828
+2022-01-07 00:21:21,680 INFO  - Send SIGINT 4828
+2022-01-07 00:21:21,680 WARN  - SIGINT to 4828 failed - Killing as fallback
+2022-01-07 00:21:21,680 INFO  - Finished FlaskAPISERVICE
+2022-01-07 00:21:21,680 DEBUG - Completed. Exit code is 0
+2022-01-07 00:21:31,282 INFO  - Starting ServiceWrapper in the service mode
+2022-01-07 00:21:31,313 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-07 00:21:31,328 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-07 00:21:31,344 INFO  - Started process 5084
+2022-01-07 00:21:31,344 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-20 18:31:03,406 INFO  - Stopping FlaskAPISERVICE
+2022-01-20 18:31:03,408 DEBUG - ProcessKill 5084
+2022-01-20 18:31:03,649 INFO  - Found child process: 8356 Name: conhost.exe
+2022-01-20 18:31:03,651 INFO  - Found child process: 8332 Name: python.exe
+2022-01-20 18:31:03,892 INFO  - Stopping process 8356
+2022-01-20 18:31:03,898 INFO  - Send SIGINT 8356
+2022-01-20 18:31:03,901 WARN  - SIGINT to 8356 failed - Killing as fallback
+2022-01-20 18:31:04,058 INFO  - Stopping process 8332
+2022-01-20 18:31:04,066 INFO  - Send SIGINT 8332
+2022-01-20 18:31:04,067 WARN  - SIGINT to 8332 failed - Killing as fallback
+2022-01-20 18:31:04,069 INFO  - Stopping process 5084
+2022-01-20 18:31:04,074 INFO  - Send SIGINT 5084
+2022-01-20 18:31:04,075 WARN  - SIGINT to 5084 failed - Killing as fallback
+2022-01-20 18:31:04,086 INFO  - Finished FlaskAPISERVICE
+2022-01-20 18:31:04,090 DEBUG - Completed. Exit code is 0
+2022-01-20 18:34:13,946 INFO  - Starting ServiceWrapper in the service mode
+2022-01-20 18:34:13,985 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-20 18:34:13,989 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-20 18:34:14,014 INFO  - Started process 7040
+2022-01-20 18:34:14,020 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-21 18:16:06,322 INFO  - Stopping FlaskAPISERVICE
+2022-01-21 18:16:06,324 DEBUG - ProcessKill 7040
+2022-01-21 18:16:06,537 INFO  - Found child process: 10172 Name: conhost.exe
+2022-01-21 18:16:06,539 INFO  - Found child process: 2012 Name: python.exe
+2022-01-21 18:16:06,684 INFO  - Stopping process 10172
+2022-01-21 18:16:06,689 INFO  - Send SIGINT 10172
+2022-01-21 18:16:06,692 WARN  - SIGINT to 10172 failed - Killing as fallback
+2022-01-21 18:16:06,810 INFO  - Stopping process 2012
+2022-01-21 18:16:06,814 INFO  - Send SIGINT 2012
+2022-01-21 18:16:06,815 WARN  - SIGINT to 2012 failed - Killing as fallback
+2022-01-21 18:16:06,817 INFO  - Stopping process 7040
+2022-01-21 18:16:06,821 INFO  - Send SIGINT 7040
+2022-01-21 18:16:06,823 WARN  - SIGINT to 7040 failed - Killing as fallback
+2022-01-21 18:16:06,880 INFO  - Finished FlaskAPISERVICE
+2022-01-21 18:16:06,883 DEBUG - Completed. Exit code is 0
+2022-01-21 18:17:19,500 INFO  - Starting ServiceWrapper in the service mode
+2022-01-21 18:17:19,544 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-21 18:17:19,548 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-21 18:17:19,572 INFO  - Started process 2148
+2022-01-21 18:17:19,577 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-01-24 16:06:20,827 INFO  - Stopping FlaskAPISERVICE
+2022-01-24 16:06:20,828 DEBUG - ProcessKill 2148
+2022-01-24 16:06:21,034 INFO  - Found child process: 9180 Name: conhost.exe
+2022-01-24 16:06:21,036 INFO  - Found child process: 4464 Name: python.exe
+2022-01-24 16:06:21,141 INFO  - Stopping process 9180
+2022-01-24 16:06:21,146 INFO  - Send SIGINT 9180
+2022-01-24 16:06:21,148 WARN  - SIGINT to 9180 failed - Killing as fallback
+2022-01-24 16:06:21,260 INFO  - Stopping process 4464
+2022-01-24 16:06:21,265 INFO  - Send SIGINT 4464
+2022-01-24 16:06:21,266 WARN  - SIGINT to 4464 failed - Killing as fallback
+2022-01-24 16:06:21,267 INFO  - Stopping process 2148
+2022-01-24 16:06:21,337 INFO  - Process 2148 is already stopped
+System.ArgumentException: Process with an Id of 2148 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2022-01-24 16:06:21,354 INFO  - Finished FlaskAPISERVICE
+2022-01-24 16:06:21,357 DEBUG - Completed. Exit code is 0
+2022-01-24 16:06:29,252 INFO  - Starting ServiceWrapper in the service mode
+2022-01-24 16:06:29,303 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-24 16:06:29,309 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-01-24 16:06:29,330 INFO  - Started process 8420
+2022-01-24 16:06:29,336 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 20:18:33,019 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 20:18:33,020 DEBUG - ProcessKill 8420
+2022-02-02 20:18:33,255 INFO  - Found child process: 9372 Name: conhost.exe
+2022-02-02 20:18:33,287 INFO  - Found child process: 9220 Name: python.exe
+2022-02-02 20:18:33,428 INFO  - Stopping process 9372
+2022-02-02 20:18:33,433 INFO  - Send SIGINT 9372
+2022-02-02 20:18:33,436 WARN  - SIGINT to 9372 failed - Killing as fallback
+2022-02-02 20:18:33,567 INFO  - Stopping process 9220
+2022-02-02 20:18:33,572 INFO  - Send SIGINT 9220
+2022-02-02 20:18:33,573 WARN  - SIGINT to 9220 failed - Killing as fallback
+2022-02-02 20:18:33,575 INFO  - Stopping process 8420
+2022-02-02 20:18:33,587 INFO  - Send SIGINT 8420
+2022-02-02 20:18:33,593 WARN  - SIGINT to 8420 failed - Killing as fallback
+2022-02-02 20:18:33,598 INFO  - Finished FlaskAPISERVICE
+2022-02-02 20:18:33,625 DEBUG - Completed. Exit code is 0
+2022-02-02 20:27:14,168 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 20:27:14,204 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 20:27:14,208 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 20:27:14,235 INFO  - Started process 10784
+2022-02-02 20:27:14,243 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 21:35:51,073 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 21:35:51,074 DEBUG - ProcessKill 10784
+2022-02-02 21:35:51,133 WARN  - Failed to locate children of the process with PID=10784. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-02-02 21:35:51,149 INFO  - Stopping process 10784
+2022-02-02 21:35:51,149 INFO  - Send SIGINT 10784
+2022-02-02 21:35:51,580 INFO  - SIGINT to10784 successful
+2022-02-02 21:35:51,580 INFO  - Finished FlaskAPISERVICE
+2022-02-02 21:35:51,580 DEBUG - Completed. Exit code is 0
+2022-02-02 21:36:55,985 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 21:36:56,141 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 21:36:56,157 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 21:36:56,229 INFO  - Started process 4668
+2022-02-02 21:36:56,240 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 22:06:37,307 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 22:06:37,307 DEBUG - ProcessKill 4668
+2022-02-02 22:06:37,529 INFO  - Found child process: 4684 Name: conhost.exe
+2022-02-02 22:06:37,529 INFO  - Found child process: 4840 Name: python.exe
+2022-02-02 22:06:37,639 INFO  - Stopping process 4684
+2022-02-02 22:06:37,639 INFO  - Send SIGINT 4684
+2022-02-02 22:06:37,639 WARN  - SIGINT to 4684 failed - Killing as fallback
+2022-02-02 22:06:37,732 INFO  - Stopping process 4840
+2022-02-02 22:06:37,732 INFO  - Send SIGINT 4840
+2022-02-02 22:06:37,732 WARN  - SIGINT to 4840 failed - Killing as fallback
+2022-02-02 22:06:37,732 INFO  - Stopping process 4668
+2022-02-02 22:06:37,764 INFO  - Process 4668 is already stopped
+System.ArgumentException: Process with an Id of 4668 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2022-02-02 22:06:37,779 INFO  - Finished FlaskAPISERVICE
+2022-02-02 22:06:37,779 DEBUG - Completed. Exit code is 0
+2022-02-02 22:08:53,405 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 22:08:53,443 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 22:08:53,447 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 22:08:53,470 INFO  - Started process 5116
+2022-02-02 22:08:53,475 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 22:22:16,449 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 22:22:16,449 DEBUG - ProcessKill 5116
+2022-02-02 22:22:16,638 INFO  - Found child process: 4928 Name: conhost.exe
+2022-02-02 22:22:16,638 INFO  - Found child process: 4700 Name: python.exe
+2022-02-02 22:22:16,716 INFO  - Stopping process 4928
+2022-02-02 22:22:16,732 INFO  - Send SIGINT 4928
+2022-02-02 22:22:16,732 WARN  - SIGINT to 4928 failed - Killing as fallback
+2022-02-02 22:22:16,825 INFO  - Stopping process 4700
+2022-02-02 22:22:16,825 INFO  - Send SIGINT 4700
+2022-02-02 22:22:16,825 WARN  - SIGINT to 4700 failed - Killing as fallback
+2022-02-02 22:22:16,825 INFO  - Stopping process 5116
+2022-02-02 22:22:16,841 INFO  - Process 5116 is already stopped
+System.ArgumentException: Process with an Id of 5116 is not running.
+   at System.Diagnostics.Process.GetProcessById(Int32 processId, String machineName)
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2022-02-02 22:22:16,857 INFO  - Finished FlaskAPISERVICE
+2022-02-02 22:22:16,857 DEBUG - Completed. Exit code is 0
+2022-02-02 22:41:19,270 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 22:41:19,307 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 22:41:19,312 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 22:41:19,334 INFO  - Started process 3536
+2022-02-02 22:41:19,339 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 22:54:37,585 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 22:54:37,601 DEBUG - ProcessKill 3536
+2022-02-02 22:54:37,744 INFO  - Found child process: 3244 Name: conhost.exe
+2022-02-02 22:54:37,744 INFO  - Found child process: 1908 Name: python.exe
+2022-02-02 22:54:37,834 INFO  - Stopping process 3244
+2022-02-02 22:54:37,850 INFO  - Send SIGINT 3244
+2022-02-02 22:54:37,850 WARN  - SIGINT to 3244 failed - Killing as fallback
+2022-02-02 22:54:37,948 INFO  - Stopping process 1908
+2022-02-02 22:54:37,948 INFO  - Send SIGINT 1908
+2022-02-02 22:54:37,948 WARN  - SIGINT to 1908 failed - Killing as fallback
+2022-02-02 22:54:37,948 INFO  - Stopping process 3536
+2022-02-02 22:54:37,948 INFO  - Send SIGINT 3536
+2022-02-02 22:54:37,948 WARN  - SIGINT to 3536 failed - Killing as fallback
+2022-02-02 22:54:37,963 INFO  - Finished FlaskAPISERVICE
+2022-02-02 22:54:37,963 DEBUG - Completed. Exit code is 0
+2022-02-02 23:03:31,641 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 23:03:31,688 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 23:03:31,692 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 23:03:31,715 INFO  - Started process 8472
+2022-02-02 23:03:31,721 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 23:17:56,856 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 23:17:56,856 DEBUG - ProcessKill 8472
+2022-02-02 23:17:56,997 INFO  - Found child process: 6016 Name: conhost.exe
+2022-02-02 23:17:56,997 INFO  - Found child process: 840 Name: python.exe
+2022-02-02 23:17:57,075 INFO  - Stopping process 6016
+2022-02-02 23:17:57,075 INFO  - Send SIGINT 6016
+2022-02-02 23:17:57,091 WARN  - SIGINT to 6016 failed - Killing as fallback
+2022-02-02 23:17:57,184 INFO  - Stopping process 840
+2022-02-02 23:17:57,187 INFO  - Send SIGINT 840
+2022-02-02 23:17:57,188 WARN  - SIGINT to 840 failed - Killing as fallback
+2022-02-02 23:17:57,189 INFO  - Stopping process 8472
+2022-02-02 23:17:57,190 INFO  - Send SIGINT 8472
+2022-02-02 23:17:57,190 WARN  - SIGINT to 8472 failed - Killing as fallback
+2022-02-02 23:17:57,190 INFO  - Finished FlaskAPISERVICE
+2022-02-02 23:17:57,190 DEBUG - Completed. Exit code is 0
+2022-02-02 23:29:15,797 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 23:29:15,837 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 23:29:15,841 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 23:29:15,858 INFO  - Started process 3036
+2022-02-02 23:29:15,864 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-02 23:42:23,782 INFO  - Stopping FlaskAPISERVICE
+2022-02-02 23:42:23,782 DEBUG - ProcessKill 3036
+2022-02-02 23:42:23,984 INFO  - Found child process: 2408 Name: conhost.exe
+2022-02-02 23:42:23,984 INFO  - Found child process: 5144 Name: python.exe
+2022-02-02 23:42:24,077 INFO  - Stopping process 2408
+2022-02-02 23:42:24,077 INFO  - Send SIGINT 2408
+2022-02-02 23:42:24,077 WARN  - SIGINT to 2408 failed - Killing as fallback
+2022-02-02 23:42:24,171 INFO  - Stopping process 5144
+2022-02-02 23:42:24,171 INFO  - Send SIGINT 5144
+2022-02-02 23:42:24,171 WARN  - SIGINT to 5144 failed - Killing as fallback
+2022-02-02 23:42:24,171 INFO  - Stopping process 3036
+2022-02-02 23:42:24,171 INFO  - Send SIGINT 3036
+2022-02-02 23:42:24,171 WARN  - SIGINT to 3036 failed - Killing as fallback
+2022-02-02 23:42:24,187 INFO  - Finished FlaskAPISERVICE
+2022-02-02 23:42:24,187 DEBUG - Completed. Exit code is 0
+2022-02-02 23:46:16,486 INFO  - Starting ServiceWrapper in the service mode
+2022-02-02 23:46:16,526 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 23:46:16,530 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-02 23:46:16,554 INFO  - Started process 6992
+2022-02-02 23:46:16,560 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-03 00:23:41,698 INFO  - Stopping FlaskAPISERVICE
+2022-02-03 00:23:41,699 DEBUG - ProcessKill 6992
+2022-02-03 00:23:41,843 INFO  - Found child process: 7976 Name: conhost.exe
+2022-02-03 00:23:41,844 INFO  - Found child process: 1760 Name: python.exe
+2022-02-03 00:23:41,942 INFO  - Stopping process 7976
+2022-02-03 00:23:41,946 INFO  - Send SIGINT 7976
+2022-02-03 00:23:41,948 WARN  - SIGINT to 7976 failed - Killing as fallback
+2022-02-03 00:23:42,059 INFO  - Stopping process 1760
+2022-02-03 00:23:42,063 INFO  - Send SIGINT 1760
+2022-02-03 00:23:42,064 WARN  - SIGINT to 1760 failed - Killing as fallback
+2022-02-03 00:23:42,065 INFO  - Stopping process 6992
+2022-02-03 00:23:42,070 INFO  - Send SIGINT 6992
+2022-02-03 00:23:42,072 WARN  - SIGINT to 6992 failed - Killing as fallback
+2022-02-03 00:23:42,076 INFO  - Finished FlaskAPISERVICE
+2022-02-03 00:23:42,079 DEBUG - Completed. Exit code is 0
+2022-02-03 00:28:23,910 INFO  - Starting ServiceWrapper in the service mode
+2022-02-03 00:28:23,949 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-03 00:28:23,953 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-03 00:28:23,977 INFO  - Started process 9720
+2022-02-03 00:28:23,982 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-03 08:42:25,286 INFO  - Stopping FlaskAPISERVICE
+2022-02-03 08:42:25,287 DEBUG - ProcessKill 9720
+2022-02-03 08:42:25,486 INFO  - Found child process: 5012 Name: conhost.exe
+2022-02-03 08:42:25,487 INFO  - Found child process: 8800 Name: python.exe
+2022-02-03 08:42:25,591 INFO  - Stopping process 5012
+2022-02-03 08:42:25,595 INFO  - Send SIGINT 5012
+2022-02-03 08:42:25,597 WARN  - SIGINT to 5012 failed - Killing as fallback
+2022-02-03 08:42:25,700 INFO  - Stopping process 8800
+2022-02-03 08:42:25,704 INFO  - Send SIGINT 8800
+2022-02-03 08:42:25,705 WARN  - SIGINT to 8800 failed - Killing as fallback
+2022-02-03 08:42:25,706 INFO  - Stopping process 9720
+2022-02-03 08:42:25,710 INFO  - Send SIGINT 9720
+2022-02-03 08:42:25,712 WARN  - SIGINT to 9720 failed - Killing as fallback
+2022-02-03 08:42:25,715 INFO  - Finished FlaskAPISERVICE
+2022-02-03 08:42:25,718 DEBUG - Completed. Exit code is 0
+2022-02-03 08:42:30,045 INFO  - Starting ServiceWrapper in the service mode
+2022-02-03 08:42:30,085 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-03 08:42:30,090 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-03 08:42:30,110 INFO  - Started process 8228
+2022-02-03 08:42:30,117 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-12 22:40:40,576 INFO  - Stopping FlaskAPISERVICE
+2022-02-12 22:40:40,577 DEBUG - ProcessKill 8228
+2022-02-12 22:40:40,832 INFO  - Found child process: 6868 Name: conhost.exe
+2022-02-12 22:40:40,833 INFO  - Found child process: 9772 Name: python.exe
+2022-02-12 22:40:40,946 INFO  - Stopping process 6868
+2022-02-12 22:40:40,950 INFO  - Send SIGINT 6868
+2022-02-12 22:40:40,952 WARN  - SIGINT to 6868 failed - Killing as fallback
+2022-02-12 22:40:41,063 INFO  - Stopping process 9772
+2022-02-12 22:40:41,067 INFO  - Send SIGINT 9772
+2022-02-12 22:40:41,068 WARN  - SIGINT to 9772 failed - Killing as fallback
+2022-02-12 22:40:41,069 INFO  - Stopping process 8228
+2022-02-12 22:40:41,074 INFO  - Send SIGINT 8228
+2022-02-12 22:40:41,076 WARN  - SIGINT to 8228 failed - Killing as fallback
+2022-02-12 22:40:41,079 INFO  - Finished FlaskAPISERVICE
+2022-02-12 22:40:41,090 DEBUG - Completed. Exit code is 0
+2022-02-12 22:42:50,565 INFO  - Starting ServiceWrapper in the service mode
+2022-02-12 22:42:50,600 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-12 22:42:50,604 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-12 22:42:50,630 INFO  - Started process 1172
+2022-02-12 22:42:50,635 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-13 12:30:38,043 INFO  - Stopping FlaskAPISERVICE
+2022-02-13 12:30:38,044 DEBUG - ProcessKill 1172
+2022-02-13 12:30:38,285 INFO  - Found child process: 12240 Name: conhost.exe
+2022-02-13 12:30:38,287 INFO  - Found child process: 940 Name: python.exe
+2022-02-13 12:30:38,402 INFO  - Stopping process 12240
+2022-02-13 12:30:38,407 INFO  - Send SIGINT 12240
+2022-02-13 12:30:38,409 WARN  - SIGINT to 12240 failed - Killing as fallback
+2022-02-13 12:30:38,536 INFO  - Stopping process 940
+2022-02-13 12:30:38,540 INFO  - Send SIGINT 940
+2022-02-13 12:30:38,541 WARN  - SIGINT to 940 failed - Killing as fallback
+2022-02-13 12:30:38,543 INFO  - Stopping process 1172
+2022-02-13 12:30:38,549 INFO  - Send SIGINT 1172
+2022-02-13 12:30:38,550 WARN  - SIGINT to 1172 failed - Killing as fallback
+2022-02-13 12:30:38,555 INFO  - Finished FlaskAPISERVICE
+2022-02-13 12:30:38,567 DEBUG - Completed. Exit code is 0
+2022-02-13 12:31:20,724 INFO  - Starting ServiceWrapper in the service mode
+2022-02-13 12:31:20,763 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-13 12:31:20,768 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-13 12:31:20,788 INFO  - Started process 10020
+2022-02-13 12:31:20,795 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-15 16:41:47,761 INFO  - Stopping FlaskAPISERVICE
+2022-02-15 16:41:47,762 DEBUG - ProcessKill 10020
+2022-02-15 16:41:47,986 INFO  - Found child process: 6792 Name: conhost.exe
+2022-02-15 16:41:47,987 INFO  - Found child process: 10772 Name: python.exe
+2022-02-15 16:41:48,099 INFO  - Stopping process 6792
+2022-02-15 16:41:48,104 INFO  - Send SIGINT 6792
+2022-02-15 16:41:48,106 WARN  - SIGINT to 6792 failed - Killing as fallback
+2022-02-15 16:41:48,215 INFO  - Stopping process 10772
+2022-02-15 16:41:48,218 INFO  - Send SIGINT 10772
+2022-02-15 16:41:48,219 WARN  - SIGINT to 10772 failed - Killing as fallback
+2022-02-15 16:41:48,221 INFO  - Stopping process 10020
+2022-02-15 16:41:48,227 INFO  - Send SIGINT 10020
+2022-02-15 16:41:48,230 WARN  - SIGINT to 10020 failed - Killing as fallback
+2022-02-15 16:41:48,234 INFO  - Finished FlaskAPISERVICE
+2022-02-15 16:41:48,243 DEBUG - Completed. Exit code is 0
+2022-02-15 16:41:49,251 INFO  - Starting ServiceWrapper in the service mode
+2022-02-15 16:41:49,288 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-15 16:41:49,292 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-15 16:41:49,316 INFO  - Started process 7380
+2022-02-15 16:41:49,321 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-15 16:42:13,840 INFO  - Stopping FlaskAPISERVICE
+2022-02-15 16:42:13,842 DEBUG - ProcessKill 7380
+2022-02-15 16:42:14,014 INFO  - Found child process: 12184 Name: conhost.exe
+2022-02-15 16:42:14,015 INFO  - Found child process: 11144 Name: python.exe
+2022-02-15 16:42:14,135 INFO  - Stopping process 12184
+2022-02-15 16:42:14,140 INFO  - Send SIGINT 12184
+2022-02-15 16:42:14,143 WARN  - SIGINT to 12184 failed - Killing as fallback
+2022-02-15 16:42:14,253 INFO  - Stopping process 11144
+2022-02-15 16:42:14,257 INFO  - Send SIGINT 11144
+2022-02-15 16:42:14,258 WARN  - SIGINT to 11144 failed - Killing as fallback
+2022-02-15 16:42:14,260 INFO  - Stopping process 7380
+2022-02-15 16:42:14,264 INFO  - Send SIGINT 7380
+2022-02-15 16:42:14,265 WARN  - SIGINT to 7380 failed - Killing as fallback
+2022-02-15 16:42:14,268 INFO  - Finished FlaskAPISERVICE
+2022-02-15 16:42:14,270 DEBUG - Completed. Exit code is 0
+2022-02-15 16:42:17,770 INFO  - Starting ServiceWrapper in the service mode
+2022-02-15 16:42:17,807 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-15 16:42:17,811 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-15 16:42:17,830 INFO  - Started process 9496
+2022-02-15 16:42:17,836 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-02-18 19:29:58,366 INFO  - Stopping FlaskAPISERVICE
+2022-02-18 19:29:58,368 DEBUG - ProcessKill 9496
+2022-02-18 19:29:58,484 WARN  - Failed to locate children of the process with PID=9496. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-02-18 19:29:58,484 INFO  - Stopping process 9496
+2022-02-18 19:29:58,499 INFO  - Send SIGINT 9496
+2022-02-18 19:29:59,078 INFO  - SIGINT to9496 successful
+2022-02-18 19:29:59,078 INFO  - Finished FlaskAPISERVICE
+2022-02-18 19:29:59,078 DEBUG - Completed. Exit code is 0
+2022-02-18 19:31:09,256 INFO  - Starting ServiceWrapper in the service mode
+2022-02-18 19:31:09,490 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-18 19:31:09,490 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-02-18 19:31:09,553 INFO  - Started process 4788
+2022-02-18 19:31:09,584 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-03-10 22:39:48,190 INFO  - Stopping FlaskAPISERVICE
+2022-03-10 22:39:48,191 DEBUG - ProcessKill 4788
+2022-03-10 22:39:48,421 INFO  - Found child process: 4796 Name: conhost.exe
+2022-03-10 22:39:48,425 INFO  - Found child process: 4876 Name: python.exe
+2022-03-10 22:39:48,534 INFO  - Stopping process 4796
+2022-03-10 22:39:48,540 INFO  - Send SIGINT 4796
+2022-03-10 22:39:48,543 WARN  - SIGINT to 4796 failed - Killing as fallback
+2022-03-10 22:39:48,655 INFO  - Stopping process 4876
+2022-03-10 22:39:48,659 INFO  - Send SIGINT 4876
+2022-03-10 22:39:48,660 WARN  - SIGINT to 4876 failed - Killing as fallback
+2022-03-10 22:39:48,661 INFO  - Stopping process 4788
+2022-03-10 22:39:48,665 INFO  - Send SIGINT 4788
+2022-03-10 22:39:48,666 WARN  - SIGINT to 4788 failed - Killing as fallback
+2022-03-10 22:39:48,669 INFO  - Finished FlaskAPISERVICE
+2022-03-10 22:39:48,676 DEBUG - Completed. Exit code is 0
+2022-03-10 22:43:14,629 INFO  - Starting ServiceWrapper in the service mode
+2022-03-10 22:43:14,666 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-03-10 22:43:14,670 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-03-10 22:43:14,696 INFO  - Started process 8812
+2022-03-10 22:43:14,701 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-03-25 22:38:41,950 INFO  - Stopping FlaskAPISERVICE
+2022-03-25 22:38:41,952 DEBUG - ProcessKill 8812
+2022-03-25 22:38:42,135 INFO  - Found child process: 8652 Name: conhost.exe
+2022-03-25 22:38:42,136 INFO  - Found child process: 9320 Name: python.exe
+2022-03-25 22:38:42,257 INFO  - Stopping process 8652
+2022-03-25 22:38:42,262 INFO  - Send SIGINT 8652
+2022-03-25 22:38:42,264 WARN  - SIGINT to 8652 failed - Killing as fallback
+2022-03-25 22:38:42,382 INFO  - Stopping process 9320
+2022-03-25 22:38:42,385 INFO  - Send SIGINT 9320
+2022-03-25 22:38:42,386 WARN  - SIGINT to 9320 failed - Killing as fallback
+2022-03-25 22:38:42,388 INFO  - Stopping process 8812
+2022-03-25 22:38:42,395 INFO  - Send SIGINT 8812
+2022-03-25 22:38:42,397 WARN  - SIGINT to 8812 failed - Killing as fallback
+2022-03-25 22:38:42,401 INFO  - Finished FlaskAPISERVICE
+2022-03-25 22:38:42,404 DEBUG - Completed. Exit code is 0
+2022-03-25 22:39:34,900 INFO  - Starting ServiceWrapper in the service mode
+2022-03-25 22:39:34,937 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-03-25 22:39:34,942 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-03-25 22:39:34,966 INFO  - Started process 9808
+2022-03-25 22:39:34,979 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-17 22:13:22,480 INFO  - Stopping FlaskAPISERVICE
+2022-05-17 22:13:22,481 DEBUG - ProcessKill 9808
+2022-05-17 22:13:22,549 WARN  - Failed to locate children of the process with PID=9808. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-05-17 22:13:22,551 INFO  - Stopping process 9808
+2022-05-17 22:13:22,551 INFO  - Send SIGINT 9808
+2022-05-17 22:13:23,066 INFO  - SIGINT to9808 successful
+2022-05-17 22:13:23,082 INFO  - Finished FlaskAPISERVICE
+2022-05-17 22:13:23,082 DEBUG - Completed. Exit code is 0
+2022-05-17 22:15:02,329 INFO  - Starting ServiceWrapper in the service mode
+2022-05-17 22:15:02,594 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-17 22:15:02,594 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-17 22:15:02,654 INFO  - Started process 4632
+2022-05-17 22:15:02,666 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-18 21:52:05,789 INFO  - Stopping FlaskAPISERVICE
+2022-05-18 21:52:05,789 DEBUG - ProcessKill 4632
+2022-05-18 21:52:05,852 WARN  - Failed to locate children of the process with PID=4632. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-05-18 21:52:05,885 INFO  - Stopping process 4632
+2022-05-18 21:52:05,885 INFO  - Send SIGINT 4632
+2022-05-18 21:52:06,353 INFO  - SIGINT to4632 successful
+2022-05-18 21:52:06,353 INFO  - Finished FlaskAPISERVICE
+2022-05-18 21:52:06,369 DEBUG - Completed. Exit code is 0
+2022-05-18 21:53:37,243 INFO  - Starting ServiceWrapper in the service mode
+2022-05-18 21:53:37,424 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-18 21:53:37,443 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-18 21:53:37,490 INFO  - Started process 4632
+2022-05-18 21:53:37,499 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-18 21:58:17,626 INFO  - Stopping FlaskAPISERVICE
+2022-05-18 21:58:17,627 DEBUG - ProcessKill 4632
+2022-05-18 21:58:17,816 INFO  - Found child process: 4648 Name: conhost.exe
+2022-05-18 21:58:17,816 INFO  - Found child process: 4776 Name: python.exe
+2022-05-18 21:58:17,956 INFO  - Stopping process 4648
+2022-05-18 21:58:17,956 INFO  - Send SIGINT 4648
+2022-05-18 21:58:17,956 WARN  - SIGINT to 4648 failed - Killing as fallback
+2022-05-18 21:58:18,081 INFO  - Stopping process 4776
+2022-05-18 21:58:18,081 INFO  - Send SIGINT 4776
+2022-05-18 21:58:18,081 WARN  - SIGINT to 4776 failed - Killing as fallback
+2022-05-18 21:58:18,081 INFO  - Stopping process 4632
+2022-05-18 21:58:18,112 INFO  - Send SIGINT 4632
+2022-05-18 21:58:18,112 WARN  - SIGINT to 4632 failed - Killing as fallback
+2022-05-18 21:58:18,112 WARN  - Ignoring exception from killing process because it has exited
+System.ComponentModel.Win32Exception (0x80004005): Access is denied
+   at System.Diagnostics.Process.Kill()
+   at winsw.Util.ProcessHelper.StopProcess(Int32 pid, TimeSpan stopTimeout)
+2022-05-18 21:58:18,190 INFO  - Finished FlaskAPISERVICE
+2022-05-18 21:58:18,190 DEBUG - Completed. Exit code is 0
+2022-05-18 22:01:53,585 INFO  - Starting ServiceWrapper in the service mode
+2022-05-18 22:01:53,653 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-18 22:01:53,658 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-18 22:01:53,684 INFO  - Started process 9596
+2022-05-18 22:01:53,692 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-19 11:57:48,761 INFO  - Stopping FlaskAPISERVICE
+2022-05-19 11:57:48,762 DEBUG - ProcessKill 9596
+2022-05-19 11:57:49,003 INFO  - Found child process: 7916 Name: conhost.exe
+2022-05-19 11:57:49,005 INFO  - Found child process: 1036 Name: python.exe
+2022-05-19 11:57:49,153 INFO  - Stopping process 7916
+2022-05-19 11:57:49,160 INFO  - Send SIGINT 7916
+2022-05-19 11:57:49,165 WARN  - SIGINT to 7916 failed - Killing as fallback
+2022-05-19 11:57:49,367 INFO  - Stopping process 1036
+2022-05-19 11:57:49,372 INFO  - Send SIGINT 1036
+2022-05-19 11:57:49,373 WARN  - SIGINT to 1036 failed - Killing as fallback
+2022-05-19 11:57:49,375 INFO  - Stopping process 9596
+2022-05-19 11:57:49,418 INFO  - Send SIGINT 9596
+2022-05-19 11:57:49,433 WARN  - SIGINT to 9596 failed - Killing as fallback
+2022-05-19 11:57:49,452 INFO  - Finished FlaskAPISERVICE
+2022-05-19 11:57:49,465 DEBUG - Completed. Exit code is 0
+2022-05-19 14:53:35,894 INFO  - Starting ServiceWrapper in the service mode
+2022-05-19 14:53:35,937 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-19 14:53:35,941 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-19 14:53:35,968 INFO  - Started process 8760
+2022-05-19 14:53:35,975 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-20 21:05:38,943 INFO  - Stopping FlaskAPISERVICE
+2022-05-20 21:05:38,944 DEBUG - ProcessKill 8760
+2022-05-20 21:05:39,152 INFO  - Found child process: 3828 Name: conhost.exe
+2022-05-20 21:05:39,154 INFO  - Found child process: 9804 Name: python.exe
+2022-05-20 21:05:39,290 INFO  - Stopping process 3828
+2022-05-20 21:05:39,295 INFO  - Send SIGINT 3828
+2022-05-20 21:05:39,297 WARN  - SIGINT to 3828 failed - Killing as fallback
+2022-05-20 21:05:39,410 INFO  - Stopping process 9804
+2022-05-20 21:05:39,413 INFO  - Send SIGINT 9804
+2022-05-20 21:05:39,414 WARN  - SIGINT to 9804 failed - Killing as fallback
+2022-05-20 21:05:39,416 INFO  - Stopping process 8760
+2022-05-20 21:05:39,420 INFO  - Send SIGINT 8760
+2022-05-20 21:05:39,423 WARN  - SIGINT to 8760 failed - Killing as fallback
+2022-05-20 21:05:39,426 INFO  - Finished FlaskAPISERVICE
+2022-05-20 21:05:39,429 DEBUG - Completed. Exit code is 0
+2022-05-20 21:05:40,416 INFO  - Starting ServiceWrapper in the service mode
+2022-05-20 21:05:40,452 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-20 21:05:40,456 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-20 21:05:40,477 INFO  - Started process 9024
+2022-05-20 21:05:40,482 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-21 18:58:45,536 INFO  - Stopping FlaskAPISERVICE
+2022-05-21 18:58:45,537 DEBUG - ProcessKill 9024
+2022-05-21 18:58:45,778 INFO  - Found child process: 1932 Name: conhost.exe
+2022-05-21 18:58:45,779 INFO  - Found child process: 4952 Name: python.exe
+2022-05-21 18:58:45,898 INFO  - Stopping process 1932
+2022-05-21 18:58:45,906 INFO  - Send SIGINT 1932
+2022-05-21 18:58:45,908 WARN  - SIGINT to 1932 failed - Killing as fallback
+2022-05-21 18:58:46,032 INFO  - Stopping process 4952
+2022-05-21 18:58:46,034 INFO  - Send SIGINT 4952
+2022-05-21 18:58:46,035 WARN  - SIGINT to 4952 failed - Killing as fallback
+2022-05-21 18:58:46,037 INFO  - Stopping process 9024
+2022-05-21 18:58:46,041 INFO  - Send SIGINT 9024
+2022-05-21 18:58:46,042 WARN  - SIGINT to 9024 failed - Killing as fallback
+2022-05-21 18:58:46,046 INFO  - Finished FlaskAPISERVICE
+2022-05-21 18:58:46,049 DEBUG - Completed. Exit code is 0
+2022-05-21 18:58:54,018 INFO  - Starting ServiceWrapper in the service mode
+2022-05-21 18:58:54,065 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-21 18:58:54,071 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-21 18:58:54,093 INFO  - Started process 8144
+2022-05-21 18:58:54,102 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-05-27 21:47:32,445 INFO  - Stopping FlaskAPISERVICE
+2022-05-27 21:47:32,447 DEBUG - ProcessKill 8144
+2022-05-27 21:47:32,516 WARN  - Failed to locate children of the process with PID=8144. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-05-27 21:47:32,532 INFO  - Stopping process 8144
+2022-05-27 21:47:32,547 INFO  - Send SIGINT 8144
+2022-05-27 21:47:32,922 INFO  - SIGINT to8144 successful
+2022-05-27 21:47:32,922 INFO  - Finished FlaskAPISERVICE
+2022-05-27 21:47:32,938 DEBUG - Completed. Exit code is 0
+2022-05-27 21:50:28,553 INFO  - Starting ServiceWrapper in the service mode
+2022-05-27 21:50:28,740 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-27 21:50:28,771 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-05-27 21:50:28,858 INFO  - Started process 4664
+2022-05-27 21:50:28,867 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-02 21:29:19,654 INFO  - Stopping FlaskAPISERVICE
+2022-06-02 21:29:19,660 DEBUG - ProcessKill 4664
+2022-06-02 21:29:19,798 WARN  - Failed to locate children of the process with PID=4664. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-06-02 21:29:19,811 INFO  - Stopping process 4664
+2022-06-02 21:29:19,811 INFO  - Send SIGINT 4664
+2022-06-02 21:29:20,108 INFO  - SIGINT to4664 successful
+2022-06-02 21:29:20,123 INFO  - Finished FlaskAPISERVICE
+2022-06-02 21:29:20,123 DEBUG - Completed. Exit code is 0
+2022-06-02 21:50:14,262 INFO  - Starting ServiceWrapper in the service mode
+2022-06-02 21:50:14,448 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-02 21:50:14,480 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-02 21:50:14,542 INFO  - Started process 4828
+2022-06-02 21:50:14,558 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-02 22:46:33,490 INFO  - Starting ServiceWrapper in the service mode
+2022-06-02 22:46:33,718 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-02 22:46:33,750 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-02 22:46:33,840 INFO  - Started process 5300
+2022-06-02 22:46:33,857 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-02 23:24:14,523 INFO  - Starting ServiceWrapper in the service mode
+2022-06-02 23:24:14,711 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-02 23:24:14,758 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-02 23:24:14,851 INFO  - Started process 4640
+2022-06-02 23:24:14,870 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-13 21:44:12,227 INFO  - Stopping FlaskAPISERVICE
+2022-06-13 21:44:12,229 DEBUG - ProcessKill 4640
+2022-06-13 21:44:12,293 WARN  - Failed to locate children of the process with PID=4640. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-06-13 21:44:12,309 INFO  - Stopping process 4640
+2022-06-13 21:44:12,309 INFO  - Send SIGINT 4640
+2022-06-13 21:44:12,684 INFO  - SIGINT to4640 successful
+2022-06-13 21:44:12,684 INFO  - Finished FlaskAPISERVICE
+2022-06-13 21:44:12,684 DEBUG - Completed. Exit code is 0
+2022-06-13 22:01:43,032 INFO  - Starting ServiceWrapper in the service mode
+2022-06-13 22:01:43,225 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-13 22:01:43,249 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-13 22:01:43,311 INFO  - Started process 5544
+2022-06-13 22:01:43,324 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-13 22:40:22,266 INFO  - Starting ServiceWrapper in the service mode
+2022-06-13 22:40:22,596 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-13 22:40:22,657 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-13 22:40:22,789 INFO  - Started process 4516
+2022-06-13 22:40:22,804 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-14 00:18:15,148 INFO  - Stopping FlaskAPISERVICE
+2022-06-14 00:18:15,148 DEBUG - ProcessKill 4516
+2022-06-14 00:18:15,272 WARN  - Failed to locate children of the process with PID=4516. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-06-14 00:18:15,293 INFO  - Stopping process 4516
+2022-06-14 00:18:15,298 INFO  - Send SIGINT 4516
+2022-06-14 00:18:15,792 INFO  - SIGINT to4516 successful
+2022-06-14 00:18:15,792 INFO  - Finished FlaskAPISERVICE
+2022-06-14 00:18:15,792 DEBUG - Completed. Exit code is 0
+2022-06-14 00:18:41,920 INFO  - Starting ServiceWrapper in the service mode
+2022-06-14 00:18:42,241 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-14 00:18:42,246 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-14 00:18:42,329 INFO  - Started process 5592
+2022-06-14 00:18:42,358 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-06-28 21:36:32,706 INFO  - Stopping FlaskAPISERVICE
+2022-06-28 21:36:32,706 DEBUG - ProcessKill 5592
+2022-06-28 21:36:32,847 WARN  - Failed to locate children of the process with PID=5592. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-06-28 21:36:32,893 INFO  - Stopping process 5592
+2022-06-28 21:36:32,909 INFO  - Send SIGINT 5592
+2022-06-28 21:36:33,456 INFO  - SIGINT to5592 successful
+2022-06-28 21:36:33,456 INFO  - Finished FlaskAPISERVICE
+2022-06-28 21:36:33,472 DEBUG - Completed. Exit code is 0
+2022-06-28 22:18:43,271 INFO  - Starting ServiceWrapper in the service mode
+2022-06-28 22:18:43,506 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-28 22:18:43,536 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-06-28 22:18:43,625 INFO  - Started process 5560
+2022-06-28 22:18:43,642 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-07-07 22:00:41,873 INFO  - Stopping FlaskAPISERVICE
+2022-07-07 22:00:41,873 DEBUG - ProcessKill 5560
+2022-07-07 22:00:41,946 WARN  - Failed to locate children of the process with PID=5560. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-07-07 22:00:41,961 INFO  - Stopping process 5560
+2022-07-07 22:00:41,961 INFO  - Send SIGINT 5560
+2022-07-07 22:00:42,572 INFO  - SIGINT to5560 successful
+2022-07-07 22:00:42,572 INFO  - Finished FlaskAPISERVICE
+2022-07-07 22:00:42,572 DEBUG - Completed. Exit code is 0
+2022-07-07 22:33:52,725 INFO  - Starting ServiceWrapper in the service mode
+2022-07-07 22:33:52,881 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-07-07 22:33:52,897 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-07-07 22:33:52,997 INFO  - Started process 4860
+2022-07-07 22:33:53,005 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-07-08 01:15:54,634 INFO  - Stopping FlaskAPISERVICE
+2022-07-08 01:15:54,634 DEBUG - ProcessKill 4860
+2022-07-08 01:15:54,714 WARN  - Failed to locate children of the process with PID=4860. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-07-08 01:15:54,729 INFO  - Stopping process 4860
+2022-07-08 01:15:54,729 INFO  - Send SIGINT 4860
+2022-07-08 01:15:55,248 INFO  - SIGINT to4860 successful
+2022-07-08 01:15:55,248 INFO  - Finished FlaskAPISERVICE
+2022-07-08 01:15:55,248 DEBUG - Completed. Exit code is 0
+2022-07-08 01:16:57,327 INFO  - Starting ServiceWrapper in the service mode
+2022-07-08 01:16:57,371 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-07-08 01:16:57,375 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-07-08 01:16:58,573 INFO  - Started process 4860
+2022-07-08 01:16:58,579 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-07-19 21:36:03,993 INFO  - Stopping FlaskAPISERVICE
+2022-07-19 21:36:03,993 DEBUG - ProcessKill 4860
+2022-07-19 21:36:04,059 WARN  - Failed to locate children of the process with PID=4860. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-07-19 21:36:04,075 INFO  - Stopping process 4860
+2022-07-19 21:36:04,075 INFO  - Send SIGINT 4860
+2022-07-19 21:36:04,531 INFO  - SIGINT to4860 successful
+2022-07-19 21:36:04,531 INFO  - Finished FlaskAPISERVICE
+2022-07-19 21:36:04,531 DEBUG - Completed. Exit code is 0
+2022-07-19 22:14:09,370 INFO  - Starting ServiceWrapper in the service mode
+2022-07-19 22:14:09,524 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-07-19 22:14:09,556 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-07-19 22:14:09,618 INFO  - Started process 4748
+2022-07-19 22:14:09,634 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-08-03 21:11:31,099 INFO  - Stopping FlaskAPISERVICE
+2022-08-03 21:11:31,101 DEBUG - ProcessKill 4748
+2022-08-03 21:11:31,159 WARN  - Failed to locate children of the process with PID=4748. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-08-03 21:11:31,175 INFO  - Stopping process 4748
+2022-08-03 21:11:31,175 INFO  - Send SIGINT 4748
+2022-08-03 21:11:31,628 INFO  - SIGINT to4748 successful
+2022-08-03 21:11:31,643 INFO  - Finished FlaskAPISERVICE
+2022-08-03 21:11:31,643 DEBUG - Completed. Exit code is 0
+2022-08-03 21:38:47,316 INFO  - Starting ServiceWrapper in the service mode
+2022-08-03 21:38:47,475 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-03 21:38:47,491 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-03 21:38:47,553 INFO  - Started process 4888
+2022-08-03 21:38:47,569 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-08-03 21:45:44,228 INFO  - Stopping FlaskAPISERVICE
+2022-08-03 21:45:44,228 DEBUG - ProcessKill 4888
+2022-08-03 21:45:44,363 INFO  - Found child process: 4900 Name: conhost.exe
+2022-08-03 21:45:44,363 INFO  - Found child process: 5036 Name: python.exe
+2022-08-03 21:45:44,472 INFO  - Stopping process 4900
+2022-08-03 21:45:44,472 INFO  - Send SIGINT 4900
+2022-08-03 21:45:44,472 WARN  - SIGINT to 4900 failed - Killing as fallback
+2022-08-03 21:45:44,574 INFO  - Stopping process 5036
+2022-08-03 21:45:44,574 INFO  - Send SIGINT 5036
+2022-08-03 21:45:44,574 WARN  - SIGINT to 5036 failed - Killing as fallback
+2022-08-03 21:45:44,574 INFO  - Stopping process 4888
+2022-08-03 21:45:44,574 INFO  - Send SIGINT 4888
+2022-08-03 21:45:44,574 WARN  - SIGINT to 4888 failed - Killing as fallback
+2022-08-03 21:45:44,589 INFO  - Finished FlaskAPISERVICE
+2022-08-03 21:45:44,589 DEBUG - Completed. Exit code is 0
+2022-08-03 22:19:33,393 INFO  - Starting ServiceWrapper in the service mode
+2022-08-03 22:19:33,457 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-03 22:19:33,463 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-03 22:19:33,494 INFO  - Started process 708
+2022-08-03 22:19:33,509 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-08-03 22:47:03,154 INFO  - Stopping FlaskAPISERVICE
+2022-08-03 22:47:03,154 DEBUG - ProcessKill 708
+2022-08-03 22:47:03,322 INFO  - Found child process: 964 Name: conhost.exe
+2022-08-03 22:47:03,322 INFO  - Found child process: 8700 Name: python.exe
+2022-08-03 22:47:03,447 INFO  - Stopping process 964
+2022-08-03 22:47:03,447 INFO  - Send SIGINT 964
+2022-08-03 22:47:03,463 WARN  - SIGINT to 964 failed - Killing as fallback
+2022-08-03 22:47:03,572 INFO  - Stopping process 8700
+2022-08-03 22:47:03,572 INFO  - Send SIGINT 8700
+2022-08-03 22:47:03,572 WARN  - SIGINT to 8700 failed - Killing as fallback
+2022-08-03 22:47:03,572 INFO  - Stopping process 708
+2022-08-03 22:47:03,572 INFO  - Send SIGINT 708
+2022-08-03 22:47:03,572 WARN  - SIGINT to 708 failed - Killing as fallback
+2022-08-03 22:47:03,572 INFO  - Finished FlaskAPISERVICE
+2022-08-03 22:47:03,588 DEBUG - Completed. Exit code is 0
+2022-08-03 22:47:28,675 INFO  - Starting ServiceWrapper in the service mode
+2022-08-03 22:47:28,713 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-03 22:47:28,717 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-03 22:47:28,736 INFO  - Started process 660
+2022-08-03 22:47:28,742 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-08-29 22:36:13,929 INFO  - Starting ServiceWrapper in the service mode
+2022-08-29 22:36:14,009 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-29 22:36:14,031 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-08-29 22:36:14,062 INFO  - Started process 4668
+2022-08-29 22:36:14,078 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-09-28 09:51:11,746 INFO  - Stopping FlaskAPISERVICE
+2022-09-28 09:51:11,748 DEBUG - ProcessKill 4668
+2022-09-28 09:51:11,910 INFO  - Found child process: 4684 Name: conhost.exe
+2022-09-28 09:51:11,912 INFO  - Found child process: 4764 Name: python.exe
+2022-09-28 09:51:12,054 INFO  - Stopping process 4684
+2022-09-28 09:51:12,058 INFO  - Send SIGINT 4684
+2022-09-28 09:51:12,060 WARN  - SIGINT to 4684 failed - Killing as fallback
+2022-09-28 09:51:12,171 INFO  - Stopping process 4764
+2022-09-28 09:51:12,175 INFO  - Send SIGINT 4764
+2022-09-28 09:51:12,176 WARN  - SIGINT to 4764 failed - Killing as fallback
+2022-09-28 09:51:12,178 INFO  - Stopping process 4668
+2022-09-28 09:51:12,184 INFO  - Send SIGINT 4668
+2022-09-28 09:51:12,185 WARN  - SIGINT to 4668 failed - Killing as fallback
+2022-09-28 09:51:12,189 INFO  - Finished FlaskAPISERVICE
+2022-09-28 09:51:12,197 DEBUG - Completed. Exit code is 0
+2022-09-28 09:56:09,950 INFO  - Starting ServiceWrapper in the service mode
+2022-09-28 09:56:09,988 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-09-28 09:56:09,993 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-09-28 09:56:10,021 INFO  - Started process 7476
+2022-09-28 09:56:10,027 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-10-04 18:15:47,729 INFO  - Stopping FlaskAPISERVICE
+2022-10-04 18:15:47,730 DEBUG - ProcessKill 7476
+2022-10-04 18:15:47,797 WARN  - Failed to locate children of the process with PID=7476. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-10-04 18:15:47,820 INFO  - Stopping process 7476
+2022-10-04 18:15:47,826 INFO  - Send SIGINT 7476
+2022-10-04 18:15:48,100 INFO  - SIGINT to7476 successful
+2022-10-04 18:15:48,100 INFO  - Finished FlaskAPISERVICE
+2022-10-04 18:15:48,116 DEBUG - Completed. Exit code is 0
+2022-10-04 18:17:47,727 INFO  - Starting ServiceWrapper in the service mode
+2022-10-04 18:17:48,105 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-10-04 18:17:48,152 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-10-04 18:17:48,253 INFO  - Started process 3640
+2022-10-04 18:17:48,270 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-11-15 22:42:49,651 INFO  - Stopping FlaskAPISERVICE
+2022-11-15 22:42:49,670 DEBUG - ProcessKill 3640
+2022-11-15 22:42:49,798 WARN  - Failed to locate children of the process with PID=3640. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-11-15 22:42:49,806 INFO  - Stopping process 3640
+2022-11-15 22:42:49,806 INFO  - Send SIGINT 3640
+2022-11-15 22:42:50,309 INFO  - SIGINT to3640 successful
+2022-11-15 22:42:50,309 INFO  - Finished FlaskAPISERVICE
+2022-11-15 22:42:50,324 DEBUG - Completed. Exit code is 0
+2022-11-15 22:50:19,323 INFO  - Starting ServiceWrapper in the service mode
+2022-11-15 22:50:19,577 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-11-15 22:50:19,601 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-11-15 22:50:19,640 INFO  - Started process 1788
+2022-11-15 22:50:19,648 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-11-30 10:31:49,011 INFO  - Stopping FlaskAPISERVICE
+2022-11-30 10:31:49,018 DEBUG - ProcessKill 1788
+2022-11-30 10:31:49,305 INFO  - Found child process: 4120 Name: conhost.exe
+2022-11-30 10:31:49,308 INFO  - Found child process: 4308 Name: python.exe
+2022-11-30 10:31:49,417 INFO  - Stopping process 4120
+2022-11-30 10:31:49,431 INFO  - Send SIGINT 4120
+2022-11-30 10:31:49,438 WARN  - SIGINT to 4120 failed - Killing as fallback
+2022-11-30 10:31:49,550 INFO  - Stopping process 4308
+2022-11-30 10:31:49,553 INFO  - Send SIGINT 4308
+2022-11-30 10:31:49,554 WARN  - SIGINT to 4308 failed - Killing as fallback
+2022-11-30 10:31:49,556 INFO  - Stopping process 1788
+2022-11-30 10:31:49,559 INFO  - Send SIGINT 1788
+2022-11-30 10:31:49,561 WARN  - SIGINT to 1788 failed - Killing as fallback
+2022-11-30 10:31:49,570 INFO  - Finished FlaskAPISERVICE
+2022-11-30 10:31:49,576 DEBUG - Completed. Exit code is 0
+2022-11-30 10:31:57,325 INFO  - Starting ServiceWrapper in the service mode
+2022-11-30 10:31:57,393 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-11-30 10:31:57,403 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-11-30 10:31:57,443 INFO  - Started process 7260
+2022-11-30 10:31:57,455 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-01 20:44:09,547 INFO  - Stopping FlaskAPISERVICE
+2022-12-01 20:44:09,555 DEBUG - ProcessKill 7260
+2022-12-01 20:44:09,640 WARN  - Failed to locate children of the process with PID=7260. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-12-01 20:44:09,671 INFO  - Stopping process 7260
+2022-12-01 20:44:09,671 INFO  - Send SIGINT 7260
+2022-12-01 20:44:12,300 INFO  - SIGINT to7260 successful
+2022-12-01 20:44:12,300 INFO  - Finished FlaskAPISERVICE
+2022-12-01 20:44:12,300 DEBUG - Completed. Exit code is 0
+2022-12-01 20:53:45,505 INFO  - Starting ServiceWrapper in the service mode
+2022-12-01 20:53:45,756 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-01 20:53:45,803 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-01 20:53:46,221 INFO  - Started process 4192
+2022-12-01 20:53:46,221 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-02 21:36:10,162 INFO  - Stopping FlaskAPISERVICE
+2022-12-02 21:36:10,162 DEBUG - ProcessKill 4192
+2022-12-02 21:36:10,488 WARN  - Failed to locate children of the process with PID=4192. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-12-02 21:36:10,581 INFO  - Stopping process 4192
+2022-12-02 21:36:10,597 INFO  - Send SIGINT 4192
+2022-12-02 21:36:12,365 INFO  - SIGINT to4192 successful
+2022-12-02 21:36:12,365 INFO  - Finished FlaskAPISERVICE
+2022-12-02 21:36:12,365 DEBUG - Completed. Exit code is 0
+2022-12-02 21:39:12,283 INFO  - Starting ServiceWrapper in the service mode
+2022-12-02 21:39:12,521 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-02 21:39:12,536 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-02 21:39:13,776 INFO  - Started process 4280
+2022-12-02 21:39:13,792 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-07 18:05:30,217 INFO  - Stopping FlaskAPISERVICE
+2022-12-07 18:05:30,223 DEBUG - ProcessKill 4280
+2022-12-07 18:05:30,520 WARN  - Failed to locate children of the process with PID=4280. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-12-07 18:05:30,535 INFO  - Stopping process 4280
+2022-12-07 18:05:30,535 INFO  - Send SIGINT 4280
+2022-12-07 18:05:31,996 INFO  - SIGINT to4280 successful
+2022-12-07 18:05:32,012 INFO  - Finished FlaskAPISERVICE
+2022-12-07 18:05:32,012 DEBUG - Completed. Exit code is 0
+2022-12-07 18:16:30,046 INFO  - Starting ServiceWrapper in the service mode
+2022-12-07 18:16:30,252 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-07 18:16:30,264 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-07 18:16:32,056 INFO  - Started process 4300
+2022-12-07 18:16:32,067 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-09 09:10:53,610 INFO  - Stopping FlaskAPISERVICE
+2022-12-09 09:10:53,622 DEBUG - ProcessKill 4300
+2022-12-09 09:10:54,058 WARN  - Failed to locate children of the process with PID=4300. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-12-09 09:10:54,167 INFO  - Stopping process 4300
+2022-12-09 09:10:54,167 INFO  - Send SIGINT 4300
+2022-12-09 09:12:53,720 INFO  - Starting ServiceWrapper in the service mode
+2022-12-09 09:12:53,982 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-09 09:12:54,034 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-09 09:12:54,129 INFO  - Started process 4352
+2022-12-09 09:12:54,161 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-14 23:03:15,940 INFO  - Stopping FlaskAPISERVICE
+2022-12-14 23:03:15,956 DEBUG - ProcessKill 4352
+2022-12-14 23:03:16,487 WARN  - Failed to locate children of the process with PID=4352. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-12-14 23:03:16,612 INFO  - Stopping process 4352
+2022-12-14 23:03:16,643 INFO  - Send SIGINT 4352
+2022-12-14 23:03:18,699 INFO  - SIGINT to4352 successful
+2022-12-14 23:03:18,699 INFO  - Finished FlaskAPISERVICE
+2022-12-14 23:03:18,699 DEBUG - Completed. Exit code is 0
+2022-12-14 23:04:23,673 INFO  - Starting ServiceWrapper in the service mode
+2022-12-14 23:04:23,837 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-14 23:04:23,853 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-14 23:04:23,946 INFO  - Started process 4300
+2022-12-14 23:04:23,962 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-15 08:57:09,359 INFO  - Starting ServiceWrapper in the service mode
+2022-12-15 08:57:09,683 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-15 08:57:09,735 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-15 08:57:11,250 INFO  - Started process 4356
+2022-12-15 08:57:11,265 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-19 21:43:28,303 INFO  - Stopping FlaskAPISERVICE
+2022-12-19 21:43:28,330 DEBUG - ProcessKill 4356
+2022-12-19 21:43:28,548 WARN  - Failed to locate children of the process with PID=4356. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2022-12-19 21:43:28,588 INFO  - Stopping process 4356
+2022-12-19 21:43:28,603 INFO  - Send SIGINT 4356
+2022-12-19 21:43:30,589 INFO  - SIGINT to4356 successful
+2022-12-19 21:43:30,589 INFO  - Finished FlaskAPISERVICE
+2022-12-19 21:43:30,605 DEBUG - Completed. Exit code is 0
+2022-12-19 21:45:34,797 INFO  - Starting ServiceWrapper in the service mode
+2022-12-19 21:45:35,079 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-19 21:45:35,123 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-19 21:45:35,282 INFO  - Started process 1800
+2022-12-19 21:45:35,304 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2022-12-20 09:13:10,145 INFO  - Starting ServiceWrapper in the service mode
+2022-12-20 09:13:10,441 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-20 09:13:10,452 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2022-12-20 09:13:10,514 INFO  - Started process 4204
+2022-12-20 09:13:10,521 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2023-01-02 22:45:09,552 INFO  - Stopping FlaskAPISERVICE
+2023-01-02 22:45:09,557 DEBUG - ProcessKill 4204
+2023-01-02 22:45:09,741 WARN  - Failed to locate children of the process with PID=4204. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x8007045B): A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2023-01-02 22:45:09,788 INFO  - Stopping process 4204
+2023-01-02 22:45:09,788 INFO  - Send SIGINT 4204
+2023-01-02 22:45:11,721 INFO  - SIGINT to4204 successful
+2023-01-02 22:45:11,721 INFO  - Finished FlaskAPISERVICE
+2023-01-02 22:45:11,721 DEBUG - Completed. Exit code is 0
+2023-01-02 22:48:10,888 INFO  - Starting ServiceWrapper in the service mode
+2023-01-02 22:48:11,049 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2023-01-02 22:48:11,120 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2023-01-02 22:48:11,408 INFO  - Started process 3124
+2023-01-02 22:48:11,447 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender
+2023-01-03 09:04:20,618 INFO  - Starting ServiceWrapper in the service mode
+2023-01-03 09:04:20,803 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2023-01-03 09:04:20,828 INFO  - Starting C:\Programs\FlaskSRV\venv\Scripts\python C:\Programs\FlaskSRV\app.py
+2023-01-03 09:04:22,507 INFO  - Started process 4420
+2023-01-03 09:04:22,523 DEBUG - Forwarding logs of the process System.Diagnostics.Process (python) to winsw.SizeBasedRollingLogAppender

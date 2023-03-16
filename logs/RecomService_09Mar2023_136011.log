@@ -1,0 +1,132 @@
+2023-03-09 17:13:45,288 - Recomservicelog.RecommendationService - INFO - start calculating rate recommendations for 136011
+2023-03-09 17:13:45,288 - Recomservicelog.RecommendationService - INFO - Reading setup file
+2023-03-09 17:13:45,289 - Recomservicelog.RecommendationService - INFO - Got credentials for DB connection
+2023-03-09 17:13:45,290 - Recomservicelog.RecommendationService - INFO - Start date to generate - 2023-03-09
+2023-03-09 17:13:45,290 - Recomservicelog.RecommendationService - INFO - Date range to generate recommendation - 365
+2023-03-09 17:13:57,658 - Recomservicelog.RecommendationService - INFO - Generate the recommendations from 2023-03-09 for next 365 
+2023-03-09 17:14:00,938 - Recomservicelog.getRecommendations - INFO - --- Start Generating Recommendations---
+2023-03-09 17:14:00,939 - Recomservicelog.getRecommendations - INFO - --- Fetching the hotel parameter list From parameter ---
+2023-03-09 17:14:00,939 - Recomservicelog.pacebyalgo - INFO - --Getting parameter values---
+2023-03-09 17:14:00,939 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:02,118 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:02,164 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:02,174 - Recomservicelog.getRecommendations - INFO - -- Setting psymult and psysub value--
+2023-03-09 17:14:02,174 - Recomservicelog.getRecommendations - INFO - --- psymulti = 10 and psysub = 1 ---
+2023-03-09 17:14:02,174 - Recomservicelog.getRecommendations - INFO - --- Calculating the End date ---
+2023-03-09 17:14:02,183 - Recomservicelog.getRecommendations - INFO - --- Recommendation Period is between 2023-03-09 and 2024-03-08 ---
+2023-03-09 17:14:02,183 - Recomservicelog.getRecommendations - INFO - --- Fetching the hotel id from the List ---
+2023-03-09 17:14:02,183 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:02,369 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:02,390 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:02,391 - Recomservicelog.getRecommendations - INFO - --- Fetching the Competition List ---
+2023-03-09 17:14:02,391 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:02,540 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:02,559 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:02,559 - Recomservicelog.getRecommendations - INFO - --- Joining the Competition List with Hotel ---
+2023-03-09 17:14:02,559 - Recomservicelog.getRecommendations - INFO - --- Converting the Dataframe into a string ---
+2023-03-09 17:14:02,561 - Recomservicelog.getRecommendations - INFO - --- List of all hotels is ready ---
+2023-03-09 17:14:02,561 - Recomservicelog.getRecommendations - INFO - ---hnf_cond = 2---
+2023-03-09 17:14:06,749 - Recomservicelog.occupancy_availability - INFO - -- Getting availability data from hybrid_hnf method 
+2023-03-09 17:14:06,749 - Recomservicelog.occupancy_availability - INFO - --- Get number of rooms available to sell ---
+2023-03-09 17:14:06,749 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:06,917 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:06,964 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:06,978 - Recomservicelog.getRecommendations - INFO - --- Generate the Recommendations based on RCP Algo ---
+2023-03-09 17:14:08,086 - Recomservicelog.getrcp - INFO - --- Fetching the Slope ---
+2023-03-09 17:14:08,086 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:08,254 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:08,278 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:08,278 - Recomservicelog.getrcp - INFO - --- Fetching the Intercept ---
+2023-03-09 17:14:08,278 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:08,458 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:08,482 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:08,482 - Recomservicelog.getrcp - INFO - Get the Hotel Details
+2023-03-09 17:14:08,484 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:08,640 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:08,661 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:08,661 - Recomservicelog.getrcp - INFO - The Hotel Capacity - 16 
+2023-03-09 17:14:08,661 - Recomservicelog.getrcp - INFO - calculating dow factor 
+2023-03-09 17:14:08,722 - Recomservicelog.getrcp - INFO - creating dow factor df
+2023-03-09 17:14:08,726 - Recomservicelog.getrcp - INFO - --- Fetching the Seasonal Definition ---
+2023-03-09 17:14:08,726 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:14:08,889 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:14:08,911 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:14:08,923 - Recomservicelog.getrcp - INFO - --- Identifying the Seasons for the dates in question ---
+2023-03-09 17:16:51,806 - Recomservicelog.getrcp - INFO -  WkNum >= 49 or WkNum <= 4 - 0 
+2023-03-09 17:17:28,910 - Recomservicelog.getrcp - INFO -  WkNum >= 5 and WkNum <= 13 - 1 
+2023-03-09 17:17:28,928 - Recomservicelog.getrcp - INFO -  WkNum >= 14 and WkNum <= 22 - 2 
+2023-03-09 17:17:28,946 - Recomservicelog.getrcp - INFO -  WkNum >= 23 and WkNum <= 31 - 3 
+2023-03-09 17:17:28,964 - Recomservicelog.getrcp - INFO -  WkNum >= 32 and WkNum <= 40 - 4 
+2023-03-09 17:17:28,982 - Recomservicelog.getrcp - INFO -  WkNum >= 41 and WkNum <= 48 - 5 
+2023-03-09 17:17:28,992 - Recomservicelog.getrcp - INFO - --- Fetching the Slop Details and merging with the data ---
+2023-03-09 17:18:23,380 - Recomservicelog.getrcp - INFO - --- Fetching the Intercept Details and merging with the data ---
+2023-03-09 17:18:57,084 - Recomservicelog.getrcp - INFO - merge df_rcp_season and df_dowfact
+2023-03-09 17:20:23,942 - Recomservicelog.getrcp - INFO - calculate dow min rate
+2023-03-09 17:23:41,537 - Recomservicelog.getRecommendations - INFO - --- Applying Psychological Factor ---
+2023-03-09 17:27:45,218 - Recomservicelog.RecommendationService - INFO - start calculating rate recommendations for 136011
+2023-03-09 17:27:45,218 - Recomservicelog.RecommendationService - INFO - Reading setup file
+2023-03-09 17:27:45,219 - Recomservicelog.RecommendationService - INFO - Got credentials for DB connection
+2023-03-09 17:27:45,219 - Recomservicelog.RecommendationService - INFO - Start date to generate - 2023-03-09
+2023-03-09 17:27:45,220 - Recomservicelog.RecommendationService - INFO - Date range to generate recommendation - 365
+2023-03-09 17:27:47,108 - Recomservicelog.RecommendationService - INFO - Generate the recommendations from 2023-03-09 for next 365 
+2023-03-09 17:27:47,638 - Recomservicelog.getRecommendations - INFO - --- Start Generating Recommendations---
+2023-03-09 17:27:47,639 - Recomservicelog.getRecommendations - INFO - --- Fetching the hotel parameter list From parameter ---
+2023-03-09 17:27:47,639 - Recomservicelog.pacebyalgo - INFO - --Getting parameter values---
+2023-03-09 17:27:47,639 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:47,812 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:47,843 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:47,845 - Recomservicelog.getRecommendations - INFO - -- Setting psymult and psysub value--
+2023-03-09 17:27:47,845 - Recomservicelog.getRecommendations - INFO - --- psymulti = 10 and psysub = 1 ---
+2023-03-09 17:27:47,845 - Recomservicelog.getRecommendations - INFO - --- Calculating the End date ---
+2023-03-09 17:27:47,849 - Recomservicelog.getRecommendations - INFO - --- Recommendation Period is between 2023-03-09 and 2024-03-08 ---
+2023-03-09 17:27:47,849 - Recomservicelog.getRecommendations - INFO - --- Fetching the hotel id from the List ---
+2023-03-09 17:27:47,850 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:48,026 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:48,048 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:48,049 - Recomservicelog.getRecommendations - INFO - --- Fetching the Competition List ---
+2023-03-09 17:27:48,049 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:48,200 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:48,219 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:48,219 - Recomservicelog.getRecommendations - INFO - --- Joining the Competition List with Hotel ---
+2023-03-09 17:27:48,219 - Recomservicelog.getRecommendations - INFO - --- Converting the Dataframe into a string ---
+2023-03-09 17:27:48,221 - Recomservicelog.getRecommendations - INFO - --- List of all hotels is ready ---
+2023-03-09 17:27:48,221 - Recomservicelog.getRecommendations - INFO - ---hnf_cond = 2---
+2023-03-09 17:27:49,678 - Recomservicelog.occupancy_availability - INFO - -- Getting availability data from hybrid_hnf method 
+2023-03-09 17:27:49,678 - Recomservicelog.occupancy_availability - INFO - --- Get number of rooms available to sell ---
+2023-03-09 17:27:49,678 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:49,845 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:49,892 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:49,901 - Recomservicelog.getRecommendations - INFO - --- Generate the Recommendations based on RCP Algo ---
+2023-03-09 17:27:50,514 - Recomservicelog.getrcp - INFO - --- Fetching the Slope ---
+2023-03-09 17:27:50,514 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:50,679 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:50,703 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:50,703 - Recomservicelog.getrcp - INFO - --- Fetching the Intercept ---
+2023-03-09 17:27:50,704 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:50,851 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:50,871 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:50,871 - Recomservicelog.getrcp - INFO - Get the Hotel Details
+2023-03-09 17:27:50,871 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:51,027 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:51,046 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:51,047 - Recomservicelog.getrcp - INFO - The Hotel Capacity - 16 
+2023-03-09 17:27:51,047 - Recomservicelog.getrcp - INFO - calculating dow factor 
+2023-03-09 17:27:51,088 - Recomservicelog.getrcp - INFO - creating dow factor df
+2023-03-09 17:27:51,091 - Recomservicelog.getrcp - INFO - --- Fetching the Seasonal Definition ---
+2023-03-09 17:27:51,092 - Recomservicelog.getData - INFO - --- Connecting to the Database ---
+2023-03-09 17:27:51,254 - Recomservicelog.getData - INFO - --- Get all raw data ---
+2023-03-09 17:27:51,275 - Recomservicelog.getData - INFO - --- Got all raw data ---
+2023-03-09 17:27:51,287 - Recomservicelog.getrcp - INFO - --- Identifying the Seasons for the dates in question ---
+2023-03-09 17:28:13,897 - Recomservicelog.getrcp - INFO -  WkNum >= 49 or WkNum <= 4 - 0 
+2023-03-09 17:28:13,913 - Recomservicelog.getrcp - INFO -  WkNum >= 5 and WkNum <= 13 - 1 
+2023-03-09 17:28:13,933 - Recomservicelog.getrcp - INFO -  WkNum >= 14 and WkNum <= 22 - 2 
+2023-03-09 17:28:13,952 - Recomservicelog.getrcp - INFO -  WkNum >= 23 and WkNum <= 31 - 3 
+2023-03-09 17:28:13,972 - Recomservicelog.getrcp - INFO -  WkNum >= 32 and WkNum <= 40 - 4 
+2023-03-09 17:28:13,991 - Recomservicelog.getrcp - INFO -  WkNum >= 41 and WkNum <= 48 - 5 
+2023-03-09 17:28:14,002 - Recomservicelog.getrcp - INFO - --- Fetching the Slop Details and merging with the data ---
+2023-03-09 17:28:14,042 - Recomservicelog.getrcp - INFO - --- Fetching the Intercept Details and merging with the data ---
+2023-03-09 17:28:14,081 - Recomservicelog.getrcp - INFO - merge df_rcp_season and df_dowfact
+2023-03-09 17:28:14,097 - Recomservicelog.getrcp - INFO - calculate dow min rate
+2023-03-09 18:10:29,764 - Recomservicelog.getRecommendations - ERROR - --- No base recommendation is derived. Check the data availability ---
+2023-03-09 18:10:29,764 - Recomservicelog.getRecommendations - ERROR - --- Check the booking data availability if df_avl is 0, df_avl=366---
+2023-03-09 18:10:29,765 - Recomservicelog.RecommendationService - INFO - Failed to generate recommendations from 2023-03-09 for next -1 

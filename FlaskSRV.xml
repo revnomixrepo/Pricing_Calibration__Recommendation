@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+    <id>FlaskAPISERVICE</id>
+    <name>FlaskSRV</name>
+    <description>Flask API Windows Service</description>
+	<workingdirectory>%BASE%\</workingdirectory>
+
+    <executable>C:\Programs\FlaskSRV\venv\Scripts\python</executable>
+    <arguments>C:\Programs\FlaskSRV\app.py</arguments>
+    <logmode>rotate</logmode>
+</service>
+
